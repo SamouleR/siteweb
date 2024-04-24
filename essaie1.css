@@ -1,0 +1,166 @@
+/* Styles généraux */
+body {
+    background-image: url('abstrait-numerique-grille-fond-noir.jpg');
+    padding: 60px 0px 0px 0px; /* Ajoute un espace en haut de la page */
+    z-index: 0; /* Définit l'empilement d'arrière-plan */
+}
+
+.row-content {
+    margin: 0px auto; /* Centre le contenu horizontalement */
+    padding: 15px 0px 15px 0px; /* Ajoute un espace autour du contenu */
+    min-height: 400px; /* Définit une hauteur minimale pour le contenu */
+}
+
+/* Styles de la barre de navigation */
+.navbar-dark {
+    background-color: #d4cdcb; /* Couleur de fond de la barre de navigation */
+    color: #6d6b70; /* Couleur du texte de la barre de navigation */
+    padding: 10px; /* Ajoute de l'espace à l'intérieur de la barre de navigation */
+}
+
+.nav-link,
+.navbar-brand {
+    color: #7847ff !important; /* Couleur des liens de navigation */
+}
+
+.nav-link:hover {
+    color: #131213 !important; /* Couleur des liens de navigation au survol */
+}
+
+.navbar-dark .fa-bars {
+    color: #4753ff; /* Couleur de l'icône du bouton de menu */
+}
+
+.navbar-dark .navbar-collapse {
+    margin: 0px 0px 0px 0px; /* Ajuste la marge intérieure de la barre de navigation */
+}
+
+/* Styles du carrousel */
+.carousel {
+    background: #241b18; /* Couleur de fond du carrousel */
+    margin: 0px auto; /* Centre le carrousel horizontalement */
+    border: 1px solid #ffffff; /* Bordure du carrousel */
+}
+
+/* Styles des cartes */
+.mycard {
+    margin: 10px auto; /* Centre les cartes horizontalement */
+    border: solid rgb(168, 160, 160); /* Bordure des cartes */
+    background-color: rgb(68, 0, 255); /* Couleur de fond des cartes */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Effet de mise à l'échelle au survol */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); /* Ombre portée au survol */
+}
+
+.photo {
+    background-color: rgb(14, 13, 13); /* Couleur de fond de l'élément photo */
+    width: 100%; /* Largeur de l'élément photo */
+    height: 250px; /* Hauteur de l'élément photo */
+}
+
+.bodycard {
+    background-color: #241b18; /* Couleur de fond du corps de la carte */
+    color: cyan; /* Couleur du texte du corps de la carte */
+    opacity: 0.95; /* Opacité du corps de la carte */
+}
+
+.card-title {
+    font-size: 20px; /* Taille de police du titre de la carte */
+    color: #0e0d0d; /* Couleur du titre de la carte */
+    text-shadow: 1px 1px #0f0f0f; /* Ombre du texte du titre de la carte */
+}
+
+.card-text {
+    color: #ffffff; /* Couleur du texte de la carte */
+} 
+
+/* Styles du pied de page */
+.footer-basic {
+    padding: 20px 0; /* Ajoute de l'espace autour du pied de page */
+    background-color: #0c0b0b; /* Couleur de fond du pied de page */
+    color: #4b4c4d; /* Couleur du texte du pied de page */
+    margin-top: auto; /* Le pied de page s'alignera en bas */
+    width: 100%; /* Le pied de page prendra toute la largeur */
+}
+
+.footer-basic ul {
+    padding: 0; /* Supprime le remplissage de la liste */
+    list-style: none; /* Supprime les puces de la liste */
+    text-align: center; /* Centre le texte de la liste */
+    font-size: 18px; /* Taille de police de la liste */
+    line-height: 1.6; /* Hauteur de ligne de la liste */
+    margin-bottom: 0; /* Supprime la marge en bas de la liste */
+}
+
+.footer-basic li {
+    padding: 0 10px; /* Ajoute de l'espace autour des éléments de la liste */
+}
+
+.footer-basic ul a {
+    color: inherit; /* Couleur de lien par défaut */
+    text-decoration: none; /* Supprime la décoration de lien par défaut */
+    opacity: 0.8; /* Opacité du lien */
+}
+
+.footer-basic ul a:hover {
+    opacity: 1; /* Opacité du lien au survol */
+}
+
+.footer-basic .social {
+    text-align: center; /* Centre les icônes de médias sociaux */
+    padding-bottom: 25px; /* Ajoute de l'espace en bas des icônes de médias sociaux */
+}
+
+.footer-basic .social > a {
+    font-size: 24px; /* Taille de police des icônes de médias sociaux */
+    width: 40px; /* Largeur des icônes de médias sociaux */
+    height: 40px; /* Hauteur des icônes de médias sociaux */
+    line-height: 40px; /* Hauteur de ligne des icônes de médias sociaux */
+    display: inline-block; /* Affiche les icônes de médias sociaux en ligne */
+    text-align: center; /* Centre le contenu des icônes de médias sociaux */
+    border-radius: 50%; /* Bordure arrondie des icônes de médias sociaux */
+    border: 1px solid #181717; /* Bordure des icônes de médias sociaux */
+    margin: 0 8px; /* Marge autour des icônes de médias sociaux */
+    color: inherit; /* Couleur de l'icône par défaut */
+    opacity: 0.75; /* Opacité de l'icône par défaut */
+}
+
+.footer-basic .social > a:hover {
+    opacity: 0.9; /* Opacité de l'icône au survol */
+}
+
+.footer-basic .copyright {
+    margin-top: 15px; /* Ajoute de l'espace en haut de la mention de droit d'auteur */
+    text-align: center; /* Centre le texte de la mention de droit d'auteur */
+    font-size: 13px; /* Taille de police de la mention de droit d'auteur */
+    color: #f0e6e6; /* Couleur du texte de la mention de droit d'auteur */
+    margin-bottom: 0; /* Supprime la marge en bas de la mention de droit d'auteur */
+}
+
+/* Styles pour l'élément audio */
+#musicPlayer {
+    margin-top: 20px; /* Ajoute de l'espace en haut du lecteur audio */
+    width: 100%; /* Largeur du lecteur audio */
+}
+
+#musicPlayer audio::-webkit-media-controls-play-button {
+    background-color: #007bff; /* Couleur de fond du bouton de lecture */
+    color: white; /* Couleur du texte du bouton de lecture */
+    border-radius: 50%; /* Bordure arrondie du bouton de lecture */
+    border: none; /* Supprime la bordure du bouton de lecture */
+}
+
+#musicPlayer audio::-webkit-media-controls-play-button:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton de lecture au survol */
+}
+
+#musicPlayer audio::-webkit-media-controls-timeline {
+    background-color: #ddd; /* Couleur de fond de la timeline */
+}
+
+#musicPlayer audio::-webkit-media-controls-current-time-display,
+#musicPlayer audio::-webkit-media-controls-time-remaining-display {
+    color: #007bff; /* Couleur du texte de la durée de lecture */
+}
